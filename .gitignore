@@ -1,0 +1,13 @@
+.env
+.tmp/
+credentials.json
+token.json
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+frontend/node_modules/
+*.pdf
+frontend/src/assets/CivicRed.jpg

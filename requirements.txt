@@ -1,0 +1,9 @@
+pymupdf
+pillow
+google-generativeai
+openai
+pinecone
+fastapi
+aiofiles
+python-dotenv
+uvicorn
