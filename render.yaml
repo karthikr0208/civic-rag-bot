@@ -3,7 +3,7 @@ services:
     name: multimodal-rag-bot
     runtime: python
     buildCommand: pip install -r requirements.txt
-    startCommand: uvicorn server:app --host 0.0.0.0 --port $PORT
+    startCommand: python server.py
     envVars:
       - key: PDF_URL
         value: https://drive.google.com/file/d/1WP24NxeHs7hlGbP_4s4xDVe9xWzfIOx6/view
